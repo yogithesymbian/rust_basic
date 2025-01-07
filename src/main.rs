@@ -2,11 +2,15 @@ mod array;
 mod char;
 mod constant;
 mod data_types;
+mod if_expression;
+mod memory_management;
 mod numbers;
 mod operator_boolean;
 mod operators_comparison;
+mod string;
 mod variable_scope;
 mod variables;
+mod yo_loop;
 
 fn main() {
     println!("Hello, world!");
@@ -29,4 +33,12 @@ fn main() {
     constant::main();
     println!("\n=========variable scope=========");
     variable_scope::main();
+    println!("\n=========memory_management=========");
+    memory_management::main();
+    println!("\n=========string=========");
+    string::main();
+    println!("\n=========if_expression=========");
+    if_expression::main();
+    println!("\n=========loop=========");
+    yo_loop::main();
 }
