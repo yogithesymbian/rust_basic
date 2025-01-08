@@ -1,8 +1,12 @@
-/* purpose to learn naming file by _number_file.rs */
-mod _10_memory_management;
+// /* purpose to learn naming file by _number_file.rs */
+mod _10_memory_management_ownership;
 mod _11_string;
 mod _12_if_expression;
 mod _13_yo_loop;
+mod _14_while_loop;
+mod _15_for_loop;
+mod _16_function;
+mod _17_yo_ownership_function;
 mod _1_variables;
 mod _2_data_types;
 mod _3_numbers;
@@ -35,11 +39,19 @@ fn main() {
     println!("\n=========variable scope=========");
     _9_variable_scope::main();
     println!("\n=========memory_management=========");
-    _10_memory_management::main();
+    _10_memory_management_ownership::main();
     println!("\n=========string=========");
     _11_string::main();
     println!("\n=========if_expression=========");
     _12_if_expression::main();
     println!("\n=========loop=========");
     _13_yo_loop::main();
+    println!("\n=========while loop=========");
+    _14_while_loop::main();
+    println!("\n=========for loop=========");
+    _15_for_loop::main();
+    println!("\n=========function loop=========");
+    _16_function::main();
+    println!("\n=========ownership=========");
+    _17_yo_ownership_function::main();
 }
