@@ -6,3 +6,5 @@ pub fn main() {
     let slice = &numbers[1..4]; //slice includes [20, 30, 40]
     println!("Sum of slice : {}", calculate_sum(slice)) // expected result : 90
 }
+
+// Real Scenario: Efficiently process parts of large data structures without copying data.

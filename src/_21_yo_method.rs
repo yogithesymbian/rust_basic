@@ -16,3 +16,5 @@ pub fn main() {
     };
     println!("Rectangle area: {}", rect.area()) // expected: 50
 }
+
+// Real Scenario: Use methods for data encapsulation and calculations.

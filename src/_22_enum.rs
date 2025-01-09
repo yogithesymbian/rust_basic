@@ -16,3 +16,4 @@ pub fn main() {
     let current_status = YoStatus::Online;
     print_status(current_status); // Expected: "User is online"
 }
+// Real Scenario: Represent states or configurations, such as a network status.

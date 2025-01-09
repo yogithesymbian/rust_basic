@@ -13,6 +13,8 @@ mod _1_variables;
 mod _20_yo_struct;
 mod _21_yo_method;
 mod _22_enum;
+mod _23_yo_pattern_matching;
+mod _24_yo_type_alias;
 mod _2_data_types;
 mod _3_numbers;
 mod _4_operators_comparison;
@@ -63,4 +65,6 @@ fn main() {
     _20_yo_struct::main();
     _21_yo_method::main();
     _22_enum::main();
+    _23_yo_pattern_matching::main();
+    _24_yo_type_alias::main();
 }

@@ -10,3 +10,4 @@ pub fn main() {
     let message = "YoRust programming is fun!";
     println!("First word: {}", extract_first_word(message)); // expected: "YoRust"
 }
+// Real Scenario: Parse text inputs for specific substrings or keywords.

@@ -16,3 +16,5 @@ pub fn main() {
         user.username, user.age, user.active
     ); // expected : user details printed
 }
+
+// Real Scenario: Represent entities like users, products, or accounts.
