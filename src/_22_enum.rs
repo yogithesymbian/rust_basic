@@ -14,6 +14,10 @@ fn print_status(status: YoStatus) {
 
 pub fn main() {
     let current_status = YoStatus::Online;
-    print_status(current_status); // Expected: "User is online"
+    print_status(current_status); // Expected: "User is Online"
+    let current_status2 = YoStatus::Offline;
+    print_status(current_status2); // Expected: "User is Offline"
+    let current_status3 = YoStatus::Busy;
+    print_status(current_status3); // Expected: "User is Busy"
 }
 // Real Scenario: Represent states or configurations, such as a network status.
