@@ -10,6 +10,9 @@ mod _17_yo_ownership_function;
 mod _18_yo_slice;
 mod _19_yo_slice_string;
 mod _1_variables;
+mod _20_yo_struct;
+mod _21_yo_method;
+mod _22_enum;
 mod _2_data_types;
 mod _3_numbers;
 mod _4_operators_comparison;
@@ -18,7 +21,6 @@ mod _6_char;
 mod _7_array;
 mod _8_constant;
 mod _9_variable_scope;
-
 fn main() {
     println!("Hello, world!");
 
@@ -58,4 +60,7 @@ fn main() {
     _17_yo_ownership_function::main();
     _18_yo_slice::main();
     _19_yo_slice_string::main();
+    _20_yo_struct::main();
+    _21_yo_method::main();
+    _22_enum::main();
 }
