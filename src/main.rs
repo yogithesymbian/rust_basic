@@ -17,6 +17,7 @@ mod _23_yo_pattern_matching;
 mod _24_yo_type_alias;
 mod _25_yo_module;
 mod _26_yo_crate;
+mod _27_yo_trait;
 mod _2_data_types;
 mod _3_numbers;
 mod _4_operators_comparison;
@@ -71,4 +72,5 @@ fn main() {
     _24_yo_type_alias::main();
     _25_yo_module::main();
     _26_yo_crate::main();
+    _27_yo_trait::main();
 }
