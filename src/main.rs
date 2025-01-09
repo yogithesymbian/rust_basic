@@ -7,6 +7,8 @@ mod _14_while_loop;
 mod _15_for_loop;
 mod _16_function;
 mod _17_yo_ownership_function;
+mod _18_yo_slice;
+mod _19_yo_slice_string;
 mod _1_variables;
 mod _2_data_types;
 mod _3_numbers;
@@ -54,4 +56,6 @@ fn main() {
     _16_function::main();
     println!("\n=========ownership=========");
     _17_yo_ownership_function::main();
+    _18_yo_slice::main();
+    _19_yo_slice_string::main();
 }
