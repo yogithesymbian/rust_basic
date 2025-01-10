@@ -19,7 +19,13 @@ mod _25_yo_module;
 mod _26_yo_crate;
 mod _27_yo_trait;
 mod _28_generic;
+mod _29_yo_overloadable_operator;
 mod _2_data_types;
+mod _30_yo_optional;
+mod _31_yo_comparing;
+mod _32_yo_string_manipulation;
+mod _33_yo_formatting;
+mod _34_yo_closure;
 mod _3_numbers;
 mod _4_operators_comparison;
 mod _5_operator_boolean;
@@ -75,4 +81,10 @@ fn main() {
     _26_yo_crate::main();
     _27_yo_trait::main();
     _28_generic::main();
+    _29_yo_overloadable_operator::main();
+    _30_yo_optional::main();
+    _31_yo_comparing::main();
+    _32_yo_string_manipulation::main();
+    _33_yo_formatting::main();
+    _34_yo_closure::main();
 }
